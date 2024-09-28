@@ -8,13 +8,17 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
+    <header class="header">
+        <img src="logo.svg" alt="Company Logo">
+    </header>
+
+    <!-- Use <main> to wrap the primary content of the page -->
+    <main class="container">
         <div class="wrapper">
-          <div class="header">
-            <img src="logo.svg" alt="" srcset="this is logo">
-          </div>
           <div class="main">
-            <div class="hero-img"><img src="illustration-mockups.svg" alt="this is hero section"></div>
+            <div class="hero-img">
+              <img src="illustration-mockups.svg" alt="Hero section illustration">
+            </div>
             <div class="hero-text">
               <h1>Build The Community Your Fans Will Love</h1>
               <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
@@ -22,19 +26,21 @@
               <a href="#">Register</a>
             </div>
           </div>
+
+          <!-- Social media icons with discernible text for accessibility -->
           <div class="social">
-            <a href="#">
+            <a href="#" aria-label="Facebook">
               <i class="fab fa-facebook-f"></i>
             </a>
-            <a href="#">
+            <a href="#" aria-label="Twitter">
               <i class="fab fa-twitter"></i>
             </a>
-            <a href="#">
+            <a href="#" aria-label="Instagram">
               <i class="fab fa-instagram"></i>
             </a>
           </div>
         </div>
-      </div>
-
+      </main>
+    
 </body>
 </html>
